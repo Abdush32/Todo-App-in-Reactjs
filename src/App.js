@@ -44,7 +44,8 @@ const App = () => {
   <Input   value={input} onChange={ event => setInput(event.target.value)}  />
 
 </FormControl>
-<SendIcon type="submit" onClick={addTodo} variant="contained" color="secondary" disabled={!input}/>
+<Button type="submit" onClick={addTodo} variant="contained" color="secondary" disabled={!input}>Add</Button>
+
 
     </form>
     <ul>
